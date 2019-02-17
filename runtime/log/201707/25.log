@@ -1,0 +1,199 @@
+---------------------------------------------------------------
+[ 2017-07-25T15:27:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.151294s][吞吐率：6.61req/s] [内存消耗：1,415.93kb] [文件加载：44]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-25T15:28:38+08:00 ] 127.0.0.1 127.0.0.1 POST /dresser/dr_ysj_edit
+[ info ] www.qiaom.com/dresser/dr_ysj_edit [运行时间：0.107545s][吞吐率：9.30req/s] [内存消耗：1,783.03kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'ysj_edit',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'content-length' => '19',
+  'accept' => '*/*',
+  'origin' => 'http://www.qiaom.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.qiaom.com/apidoc/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'service_id' => '10005602',
+)
+[ info ] [ RUN ] app\dresser\controller\Service->ysj_edit[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-25T15:29:01+08:00 ] 127.0.0.1 127.0.0.1 POST /dresser/dr_pass_login
+[ info ] www.qiaom.com/dresser/dr_pass_login [运行时间：0.093016s][吞吐率：10.75req/s] [内存消耗：2,528.66kb] [文件加载：53]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Login',
+    2 => 'pass_login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'accept' => '*/*',
+  'origin' => 'http://www.qiaom.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.qiaom.com/apidoc/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '15218288177',
+  'password' => 'jshome',
+)
+[ info ] [ RUN ] app\dresser\controller\Login->pass_login[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001399s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_user` [ RunTime:0.003075s ]
+[ sql ] [ SQL ] SELECT * FROM `m2_user` WHERE  `mobile` = '15218288177'  AND `password` = 'b720906f9861685ec47475a906e19d98' LIMIT 1 [ RunTime:0.001926s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_stylist` [ RunTime:0.003260s ]
+[ sql ] [ SQL ] SELECT * FROM `m2_stylist` WHERE  `id` = 324250325 LIMIT 1 [ RunTime:0.001693s ]
+---------------------------------------------------------------
+[ 2017-07-25T15:29:07+08:00 ] 127.0.0.1 127.0.0.1 POST /dresser/dr_ysj_edit
+[ info ] www.qiaom.com/dresser/dr_ysj_edit [运行时间：0.065085s][吞吐率：15.36req/s] [内存消耗：2,541.66kb] [文件加载：53]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'ysj_edit',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'content-length' => '19',
+  'accept' => '*/*',
+  'origin' => 'http://www.qiaom.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.qiaom.com/apidoc/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'qm_cookie=MazbIc0dMejfUgwhMizjIk1l',
+)
+[ info ] [ PARAM ] array (
+  'service_id' => '10005602',
+)
+[ info ] [ RUN ] app\dresser\controller\Service->ysj_edit[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011070s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_stylist` [ RunTime:0.003558s ]
+[ sql ] [ SQL ] SELECT * FROM `m2_stylist` WHERE  `id` = 324250325 LIMIT 1 [ RunTime:0.001403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_product` [ RunTime:0.002889s ]
+[ sql ] [ SQL ] SELECT `cate_id`,`cate_id_2`,`service_form`,`name`,`images`,`new_details`,`new_pic_path`,`price`,`market_price`,`duration`,`id` FROM `m2_product` WHERE  `id` = 10005602 LIMIT 1 [ RunTime:0.001119s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_product_category` [ RunTime:0.002445s ]
+[ sql ] [ SQL ] SELECT `name` FROM `m2_product_category` WHERE  `id` = 64 LIMIT 1 [ RunTime:0.000772s ]
+[ sql ] [ SQL ] SELECT `name` FROM `m2_product_category` WHERE  `id` = 2065 LIMIT 1 [ RunTime:0.001024s ]
+---------------------------------------------------------------
+[ 2017-07-25T16:09:37+08:00 ] 127.0.0.1 127.0.0.1 POST /dresser/dr_btg_del
+[ info ] www.qiaom.com/dresser/dr_btg_del [运行时间：0.066954s][吞吐率：14.94req/s] [内存消耗：2,515.93kb] [文件加载：53]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'btg_del',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'content-length' => '24',
+  'accept' => '*/*',
+  'origin' => 'http://www.qiaom.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.qiaom.com/apidoc/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'qm_cookie=MazbIc0dMejfUgwhMizjIk1l',
+)
+[ info ] [ PARAM ] array (
+  'service_id' => '1546565535665',
+)
+[ info ] [ RUN ] app\dresser\controller\Service->btg_del[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001903s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_stylist` [ RunTime:0.004757s ]
+[ sql ] [ SQL ] SELECT * FROM `m2_stylist` WHERE  `id` = 324250325 LIMIT 1 [ RunTime:0.001952s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_stylist_service` [ RunTime:0.003088s ]
+[ sql ] [ SQL ] DELETE FROM `m2_stylist_service`    WHERE  `stylist_id` = 324250325  AND `product_id` = 1546565535665 [ RunTime:0.001132s ]
+---------------------------------------------------------------
+[ 2017-07-25T16:55:01+08:00 ] 127.0.0.1 127.0.0.1 POST /dresser/dr_ysj_edit
+[ info ] www.qiaom.com/dresser/dr_ysj_edit [运行时间：0.057396s][吞吐率：17.42req/s] [内存消耗：2,541.13kb] [文件加载：53]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'ysj_edit',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'content-length' => '19',
+  'accept' => '*/*',
+  'origin' => 'http://www.qiaom.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.qiaom.com/apidoc/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'qm_cookie=MazbIc0dMejfUgwhMizjIk1l',
+)
+[ info ] [ PARAM ] array (
+  'service_id' => '10005602',
+)
+[ info ] [ RUN ] app\dresser\controller\Service->ysj_edit[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001785s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_stylist` [ RunTime:0.003769s ]
+[ sql ] [ SQL ] SELECT * FROM `m2_stylist` WHERE  `id` = 324250325 LIMIT 1 [ RunTime:0.001568s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_product` [ RunTime:0.002832s ]
+[ sql ] [ SQL ] SELECT `cate_id`,`cate_id_2`,`thumb`,`sell_count`,`add_time`,`service_form`,`name`,`images`,`new_details`,`new_pic_path`,`price`,`market_price`,`duration`,`id` FROM `m2_product` WHERE  `id` = 10005602 LIMIT 1 [ RunTime:0.000899s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_product_category` [ RunTime:0.002566s ]
+[ sql ] [ SQL ] SELECT `name` FROM `m2_product_category` WHERE  `id` = 64 LIMIT 1 [ RunTime:0.001012s ]
+[ sql ] [ SQL ] SELECT `name` FROM `m2_product_category` WHERE  `id` = 2065 LIMIT 1 [ RunTime:0.001212s ]

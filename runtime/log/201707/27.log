@@ -1,0 +1,30 @@
+---------------------------------------------------------------
+[ 2017-07-27T09:44:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.142867s][吞吐率：7.00req/s] [内存消耗：1,422.03kb] [文件加载：44]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-27T09:44:25+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.qiaom.com/ [运行时间：0.027948s][吞吐率：35.78req/s] [内存消耗：1,424.07kb] [文件加载：44]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

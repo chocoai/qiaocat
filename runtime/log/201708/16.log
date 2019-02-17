@@ -1,0 +1,398 @@
+---------------------------------------------------------------
+[ 2017-08-16T17:47:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.142732s][吞吐率：7.01req/s] [内存消耗：1,427.59kb] [文件加载：40]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-16T17:48:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/dr_order_status
+[ info ] www.qiaom.com/index.php/dresser/Order/dr_order_status [运行时间：0.166428s][吞吐率：6.01req/s] [内存消耗：1,746.66kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'dr_order_status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-16T17:49:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/dr_order_status
+[ info ] www.qiaom.com/index.php/dresser/Order/dr_order_status [运行时间：0.026287s][吞吐率：38.04req/s] [内存消耗：1,746.89kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'dr_order_status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-16T17:49:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/dr_order_status
+[ info ] www.qiaom.com/index.php/dresser/dr_order_status [运行时间：0.021406s][吞吐率：46.72req/s] [内存消耗：1,432.20kb] [文件加载：40]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'dr_order_status',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-16T17:49:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/dr_order_status
+[ info ] www.qiaom.com/index.php/dresser/Order/dr_order_status [运行时间：0.026555s][吞吐率：37.66req/s] [内存消耗：1,746.66kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'dr_order_status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-16T17:50:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/dr_order_status
+[ info ] www.qiaom.com/index.php/dresser/Order/dr_order_status [运行时间：0.030271s][吞吐率：33.03req/s] [内存消耗：1,746.89kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'dr_order_status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-16T17:50:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.024899s][吞吐率：40.16req/s] [内存消耗：1,427.60kb] [文件加载：40]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-16T17:50:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.021312s][吞吐率：46.92req/s] [内存消耗：1,427.54kb] [文件加载：40]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-16T17:50:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.020496s][吞吐率：48.79req/s] [内存消耗：1,427.54kb] [文件加载：40]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-16T17:50:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.021909s][吞吐率：45.64req/s] [内存消耗：1,427.54kb] [文件加载：40]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-16T17:50:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.020979s][吞吐率：47.67req/s] [内存消耗：1,427.54kb] [文件加载：40]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-16T17:50:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.020917s][吞吐率：47.81req/s] [内存消耗：1,427.54kb] [文件加载：40]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-16T17:50:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.020238s][吞吐率：49.41req/s] [内存消耗：1,427.54kb] [文件加载：40]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-16T17:50:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.020360s][吞吐率：49.12req/s] [内存消耗：1,427.54kb] [文件加载：40]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-16T17:50:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.021617s][吞吐率：46.26req/s] [内存消耗：1,427.54kb] [文件加载：40]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-16T17:50:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.021020s][吞吐率：47.57req/s] [内存消耗：1,427.54kb] [文件加载：40]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-16T17:52:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.021139s][吞吐率：47.31req/s] [内存消耗：1,427.60kb] [文件加载：40]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-16T17:52:59+08:00 ] 127.0.0.1 127.0.0.1 POST /dresser/dr_order_status
+[ info ] www.qiaom.com/dresser/dr_order_status [运行时间：0.040623s][吞吐率：24.62req/s] [内存消耗：1,752.19kb] [文件加载：46]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_status',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'accept' => '*/*',
+  'origin' => 'http://www.qiaom.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.qiaom.com/apidoc/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'order_type' => '',
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_status[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-16T17:54:11+08:00 ] 127.0.0.1 127.0.0.1 POST /mon/mon_pass_login
+[ info ] www.qiaom.com/mon/mon_pass_login [运行时间：0.137329s][吞吐率：7.28req/s] [内存消耗：2,518.78kb] [文件加载：52]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mon',
+    1 => 'Login',
+    2 => 'pass_login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'accept' => '*/*',
+  'origin' => 'http://www.qiaom.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.qiaom.com/apidoc/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '15218288177',
+  'password' => '1234546',
+)
+[ info ] [ RUN ] app\mon\controller\Login->pass_login[ F:\PHPstudy\WWW\qiaocat\application\mon\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025159s ] mysql:dbname=crm_test;host=120.76.27.217;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_user` [ RunTime:0.017774s ]
+[ sql ] [ SQL ] SELECT * FROM `m2_user` WHERE  `mobile` = '15218288177'  AND `password` = '3ea1d7abbca2b03d2ef5b295244eeebb' LIMIT 1 [ RunTime:0.018074s ]
+---------------------------------------------------------------
+[ 2017-08-16T17:54:15+08:00 ] 127.0.0.1 127.0.0.1 POST /mon/mon_pass_login
+[ info ] www.qiaom.com/mon/mon_pass_login [运行时间：0.085107s][吞吐率：11.75req/s] [内存消耗：2,518.84kb] [文件加载：52]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mon',
+    1 => 'Login',
+    2 => 'pass_login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'content-length' => '31',
+  'accept' => '*/*',
+  'origin' => 'http://www.qiaom.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.qiaom.com/apidoc/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '15218288177',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\mon\controller\Login->pass_login[ F:\PHPstudy\WWW\qiaocat\application\mon\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022557s ] mysql:dbname=crm_test;host=120.76.27.217;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_user` [ RunTime:0.017209s ]
+[ sql ] [ SQL ] SELECT * FROM `m2_user` WHERE  `mobile` = '15218288177'  AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1 [ RunTime:0.016526s ]
+---------------------------------------------------------------
+[ 2017-08-16T17:54:18+08:00 ] 127.0.0.1 127.0.0.1 POST /mon/mon_pass_login
+[ info ] www.qiaom.com/mon/mon_pass_login [运行时间：0.084453s][吞吐率：11.84req/s] [内存消耗：2,550.14kb] [文件加载：53]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mon',
+    1 => 'Login',
+    2 => 'pass_login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'accept' => '*/*',
+  'origin' => 'http://www.qiaom.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.qiaom.com/apidoc/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '15218288177',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\mon\controller\Login->pass_login[ F:\PHPstudy\WWW\qiaocat\application\mon\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023232s ] mysql:dbname=crm_test;host=120.76.27.217;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_user` [ RunTime:0.017416s ]
+[ sql ] [ SQL ] SELECT * FROM `m2_user` WHERE  `mobile` = '15218288177'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.016795s ]
+---------------------------------------------------------------
+[ 2017-08-16T17:54:34+08:00 ] 127.0.0.1 127.0.0.1 POST /dresser/dr_order_status
+[ info ] www.qiaom.com/dresser/dr_order_status [运行时间：0.187446s][吞吐率：5.33req/s] [内存消耗：2,517.81kb] [文件加载：53]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_status',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'content-length' => '14',
+  'accept' => '*/*',
+  'origin' => 'http://www.qiaom.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.qiaom.com/apidoc/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'qm_cookie=MazbIc0dMejfUgwhMizjIk1l',
+)
+[ info ] [ PARAM ] array (
+  'order_type' => 'all',
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_status[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022893s ] mysql:dbname=crm_test;host=120.76.27.217;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_stylist` [ RunTime:0.016923s ]
+[ sql ] [ SQL ] SELECT `is_check` FROM `m2_stylist` WHERE  `id` = 324250325 LIMIT 1 [ RunTime:0.015245s ]
+[ sql ] [ SQL ] select o.id,o.sn,o.buyer_id,o.service_form,o.seller_id,o.order_status,o.created_at,o.need_to_pay,o.pay_time,o.to_buyer,o.already_paid,o.start_service_time,end_service_time,u.id as uid,u.nick,u.mobile,os.address,os.send_time,lp.name as lpname,lc.name as lcname,la.name as laname from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id left join m2_location_province as lp ON os.province = lp.province_id left join m2_location_city as lc ON os.city = lc.city_id left join m2_location_area as la ON os.district = la.area_id where o.seller_id = '324250325' order by id desc [ RunTime:0.033390s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 10530 [ RunTime:0.016496s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 10524 [ RunTime:0.015019s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 8431 [ RunTime:0.017157s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 8429 [ RunTime:0.015345s ]
+---------------------------------------------------------------
+[ 2017-08-16T17:55:44+08:00 ] 127.0.0.1 127.0.0.1 GET /dresser/dr_order_status
+[ info ] www.qiaom.com/dresser/dr_order_status [运行时间：0.021254s][吞吐率：47.05req/s] [内存消耗：1,432.54kb] [文件加载：40]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'dr_order_status',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'qm_cookie=MazbIc0dMejfUgwhMizjIk1l',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

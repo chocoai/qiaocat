@@ -1,0 +1,245 @@
+---------------------------------------------------------------
+[ 2017-07-12T09:02:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/show_service_class
+[ info ] www.qiaom.com/index.php/dresser/Service/show_service_class [运行时间：0.190136s][吞吐率：5.26req/s] [内存消耗：1,265.76kb] [文件加载：39]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-12T16:16:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/service_list
+[ info ] www.qiaom.com/index.php/dresser/Service/service_list [运行时间：0.114701s][吞吐率：8.72req/s] [内存消耗：1,277.92kb] [文件加载：40]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'service_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'if' (T_IF)[F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php:85]
+---------------------------------------------------------------
+[ 2017-07-12T16:16:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/service_list
+[ info ] www.qiaom.com/index.php/dresser/Service/service_list [运行时间：0.026568s][吞吐率：37.64req/s] [内存消耗：1,338.12kb] [文件加载：40]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'service_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'if' (T_IF)[F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php:450]
+---------------------------------------------------------------
+[ 2017-07-12T16:16:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/service_list
+[ info ] www.qiaom.com/index.php/dresser/Service/service_list [运行时间：0.038707s][吞吐率：25.84req/s] [内存消耗：1,338.12kb] [文件加载：40]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'service_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'if' (T_IF)[F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php:450]
+---------------------------------------------------------------
+[ 2017-07-12T16:16:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/service_list
+[ info ] www.qiaom.com/index.php/dresser/Service/service_list [运行时间：0.024494s][吞吐率：40.83req/s] [内存消耗：1,338.11kb] [文件加载：40]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'service_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'if' (T_IF)[F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php:450]
+---------------------------------------------------------------
+[ 2017-07-12T16:16:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/service_list
+[ info ] www.qiaom.com/index.php/dresser/Service/service_list [运行时间：0.082093s][吞吐率：12.18req/s] [内存消耗：2,376.92kb] [文件加载：50]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'service_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Service->service_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001968s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_stylist_service` [ RunTime:0.002327s ]
+[ sql ] [ SQL ] SELECT `product_id`,`online` FROM `m2_stylist_service` WHERE  `stylist_id` = 324251115 [ RunTime:0.001266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_product` [ RunTime:0.002521s ]
+[ sql ] [ SQL ] SELECT `name`,`type_user`,`price`,`market_price`,`duration`,`thumb`,`sell_count`,`id` FROM `m2_product` WHERE  `id` = 1000061 LIMIT 1 [ RunTime:0.001251s ]
+[ sql ] [ SQL ] SELECT `name`,`type_user`,`price`,`market_price`,`duration`,`thumb`,`sell_count`,`id` FROM `m2_product` WHERE  `id` = 1000062 LIMIT 1 [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SELECT `name`,`type_user`,`price`,`market_price`,`duration`,`thumb`,`sell_count`,`id` FROM `m2_product` WHERE  `id` = 1000055 LIMIT 1 [ RunTime:0.001297s ]
+[ sql ] [ SQL ] SELECT `name`,`type_user`,`price`,`market_price`,`duration`,`thumb`,`sell_count`,`id` FROM `m2_product` WHERE  `id` = 1000056 LIMIT 1 [ RunTime:0.001232s ]
+[ sql ] [ SQL ] SELECT `name`,`type_user`,`price`,`market_price`,`duration`,`thumb`,`sell_count`,`id` FROM `m2_product` WHERE  `id` = 1000058 LIMIT 1 [ RunTime:0.001238s ]
+---------------------------------------------------------------
+[ 2017-07-12T16:16:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/service_list
+[ info ] www.qiaom.com/index.php/dresser/Service/service_list [运行时间：0.097929s][吞吐率：10.21req/s] [内存消耗：2,376.92kb] [文件加载：50]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'service_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Service->service_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001955s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_stylist_service` [ RunTime:0.002121s ]
+[ sql ] [ SQL ] SELECT `product_id`,`online` FROM `m2_stylist_service` WHERE  `stylist_id` = 324251115 [ RunTime:0.001154s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_product` [ RunTime:0.002716s ]
+[ sql ] [ SQL ] SELECT `name`,`type_user`,`price`,`market_price`,`duration`,`thumb`,`sell_count`,`id` FROM `m2_product` WHERE  `id` = 1000061 LIMIT 1 [ RunTime:0.001406s ]
+[ sql ] [ SQL ] SELECT `name`,`type_user`,`price`,`market_price`,`duration`,`thumb`,`sell_count`,`id` FROM `m2_product` WHERE  `id` = 1000062 LIMIT 1 [ RunTime:0.001412s ]
+[ sql ] [ SQL ] SELECT `name`,`type_user`,`price`,`market_price`,`duration`,`thumb`,`sell_count`,`id` FROM `m2_product` WHERE  `id` = 1000055 LIMIT 1 [ RunTime:0.001277s ]
+[ sql ] [ SQL ] SELECT `name`,`type_user`,`price`,`market_price`,`duration`,`thumb`,`sell_count`,`id` FROM `m2_product` WHERE  `id` = 1000056 LIMIT 1 [ RunTime:0.001553s ]
+[ sql ] [ SQL ] SELECT `name`,`type_user`,`price`,`market_price`,`duration`,`thumb`,`sell_count`,`id` FROM `m2_product` WHERE  `id` = 1000058 LIMIT 1 [ RunTime:0.001443s ]
+---------------------------------------------------------------
+[ 2017-07-12T16:29:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/service_list
+[ info ] www.qiaom.com/index.php/dresser/Service/service_list [运行时间：0.030690s][吞吐率：32.58req/s] [内存消耗：1,646.47kb] [文件加载：45]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'service_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Service->service_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-12T20:48:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/Standardized_service
+[ info ] www.qiaom.com/index.php/dresser/Service/Standardized_service [运行时间：0.046345s][吞吐率：21.58req/s] [内存消耗：2,370.59kb] [文件加载：50]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'Standardized_service',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Service->Standardized_service[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002066s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_stylist_service` [ RunTime:0.002101s ]
+[ sql ] [ SQL ] SELECT `product_id` FROM `m2_stylist_service` WHERE  `stylist_id` = 324251115 [ RunTime:0.001067s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_product` [ RunTime:0.002537s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`price`,`market_price`,`thumb`,`duration` FROM `m2_product` WHERE  `cate_id` = 1  AND `cate_id_2` = 8  AND `online` = 1  AND `id` NOT IN (1000061,1000062,1000055,1000056,1000058)  AND `type_user` = 0 [ RunTime:0.002444s ]

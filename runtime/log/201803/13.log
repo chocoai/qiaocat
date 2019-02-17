@@ -1,0 +1,53 @@
+---------------------------------------------------------------
+[ 2018-03-13T14:45:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.303657s][吞吐率：3.29req/s] [内存消耗：1,448.68kb] [文件加载：41]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-13T14:45:37+08:00 ] 127.0.0.1 127.0.0.1 GET /apidoc/vendor/bootstrap.min.css.map
+[ info ] www.qiaom.com/apidoc/vendor/bootstrap.min.css.map [运行时间：0.360764s][吞吐率：2.77req/s] [内存消耗：1,452.33kb] [文件加载：41]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apidoc',
+    1 => 'vendor',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Mobile Safari/537.36',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-13T14:45:39+08:00 ] 127.0.0.1 127.0.0.1 GET /apidoc/vendor/bootstrap.min.css.map
+[ info ] www.qiaom.com/apidoc/vendor/bootstrap.min.css.map [运行时间：0.240048s][吞吐率：4.17req/s] [内存消耗：1,452.30kb] [文件加载：41]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'apidoc',
+    1 => 'vendor',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Mobile Safari/537.36',
+  'cache-control' => 'no-cache',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

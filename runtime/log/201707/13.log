@@ -1,0 +1,1403 @@
+---------------------------------------------------------------
+[ 2017-07-13T09:04:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/show_service_class
+[ info ] www.qiaom.com/index.php/dresser/Service/show_service_class [运行时间：0.041414s][吞吐率：24.15req/s] [内存消耗：1,264.17kb] [文件加载：39]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-13T09:22:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/show_service_class
+[ info ] www.qiaom.com/index.php/dresser/Service/show_service_class [运行时间：0.076267s][吞吐率：13.11req/s] [内存消耗：2,362.10kb] [文件加载：51]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'show_service_class',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Service->show_service_class[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001855s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_product_category` [ RunTime:0.002430s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `m2_product_category` WHERE  `parent_id` = 0  AND `is_show` = 1 [ RunTime:0.001189s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `m2_product_category` WHERE  `parent_id` = 1  AND `is_show` = 1 [ RunTime:0.001215s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `m2_product_category` WHERE  `parent_id` = 64  AND `is_show` = 1 [ RunTime:0.001040s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `m2_product_category` WHERE  `parent_id` = 128  AND `is_show` = 1 [ RunTime:0.001165s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `m2_product_category` WHERE  `parent_id` = 512  AND `is_show` = 1 [ RunTime:0.001048s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `m2_product_category` WHERE  `parent_id` = 2048  AND `is_show` = 1 [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `m2_product_category` WHERE  `parent_id` = 2069  AND `is_show` = 1 [ RunTime:0.001294s ]
+---------------------------------------------------------------
+[ 2017-07-13T09:24:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/show_service_class
+[ info ] www.qiaom.com/index.php/dresser/Service/show_service_class [运行时间：0.053052s][吞吐率：18.85req/s] [内存消耗：2,362.10kb] [文件加载：51]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'show_service_class',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Service->show_service_class[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001322s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_product_category` [ RunTime:0.002433s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `m2_product_category` WHERE  `parent_id` = 0  AND `is_show` = 1 [ RunTime:0.001743s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `m2_product_category` WHERE  `parent_id` = 1  AND `is_show` = 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `m2_product_category` WHERE  `parent_id` = 64  AND `is_show` = 1 [ RunTime:0.000928s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `m2_product_category` WHERE  `parent_id` = 128  AND `is_show` = 1 [ RunTime:0.000975s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `m2_product_category` WHERE  `parent_id` = 512  AND `is_show` = 1 [ RunTime:0.000908s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `m2_product_category` WHERE  `parent_id` = 2048  AND `is_show` = 1 [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `m2_product_category` WHERE  `parent_id` = 2069  AND `is_show` = 1 [ RunTime:0.000872s ]
+---------------------------------------------------------------
+[ 2017-07-13T09:31:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/Standardized_service
+[ info ] www.qiaom.com/index.php/dresser/Service/Standardized_service [运行时间：0.044847s][吞吐率：22.30req/s] [内存消耗：2,366.62kb] [文件加载：51]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'Standardized_service',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Service->Standardized_service[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001835s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_stylist_service` [ RunTime:0.002122s ]
+[ sql ] [ SQL ] SELECT `product_id` FROM `m2_stylist_service` WHERE  `stylist_id` = 324251115 [ RunTime:0.001312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_product` [ RunTime:0.002727s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`price`,`market_price`,`thumb`,`duration` FROM `m2_product` WHERE  `cate_id` = 1  AND `cate_id_2` = 8  AND `online` = 1  AND `id` NOT IN (1000061,1000062,1000055,1000056,1000058)  AND `type_user` = 0 [ RunTime:0.002763s ]
+---------------------------------------------------------------
+[ 2017-07-13T09:31:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/Standardized_service
+[ info ] www.qiaom.com/index.php/dresser/Service/Standardized_service [运行时间：0.070695s][吞吐率：14.15req/s] [内存消耗：2,394.53kb] [文件加载：55]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'Standardized_service',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Service->Standardized_service[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011136s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_stylist_service` [ RunTime:0.001702s ]
+[ sql ] [ SQL ] SELECT `product_id` FROM `m2_stylist_service` WHERE  `stylist_id` = 324251115 [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_product` [ RunTime:0.002296s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ids' in 'field list'[F:\PHPstudy\WWW\qiaocat\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-07-13T09:38:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/service_list
+[ info ] www.qiaom.com/index.php/dresser/Service/service_list [运行时间：0.050078s][吞吐率：19.97req/s] [内存消耗：2,376.48kb] [文件加载：51]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'service_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Service->service_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001748s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_stylist_service` [ RunTime:0.002123s ]
+[ sql ] [ SQL ] SELECT `product_id`,`online` FROM `m2_stylist_service` WHERE  `stylist_id` = 324251115 [ RunTime:0.001206s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_product` [ RunTime:0.002600s ]
+[ sql ] [ SQL ] SELECT `name`,`type_user`,`price`,`market_price`,`duration`,`thumb`,`sell_count`,`id` FROM `m2_product` WHERE  `id` = 1000061 LIMIT 1 [ RunTime:0.000970s ]
+[ sql ] [ SQL ] SELECT `name`,`type_user`,`price`,`market_price`,`duration`,`thumb`,`sell_count`,`id` FROM `m2_product` WHERE  `id` = 1000062 LIMIT 1 [ RunTime:0.000935s ]
+[ sql ] [ SQL ] SELECT `name`,`type_user`,`price`,`market_price`,`duration`,`thumb`,`sell_count`,`id` FROM `m2_product` WHERE  `id` = 1000055 LIMIT 1 [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT `name`,`type_user`,`price`,`market_price`,`duration`,`thumb`,`sell_count`,`id` FROM `m2_product` WHERE  `id` = 1000056 LIMIT 1 [ RunTime:0.000944s ]
+[ sql ] [ SQL ] SELECT `name`,`type_user`,`price`,`market_price`,`duration`,`thumb`,`sell_count`,`id` FROM `m2_product` WHERE  `id` = 1000058 LIMIT 1 [ RunTime:0.001168s ]
+---------------------------------------------------------------
+[ 2017-07-13T09:41:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/ysj_edit
+[ info ] www.qiaom.com/index.php/dresser/Service/ysj_edit [运行时间：0.065598s][吞吐率：15.24req/s] [内存消耗：2,357.16kb] [文件加载：50]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'ysj_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Service->ysj_edit[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010920s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_product` [ RunTime:0.002963s ]
+[ sql ] [ SQL ] SELECT `cate_id`,`cate_id_2`,`service_form`,`name`,`images`,`new_details`,`new_pic_path`,`price`,`market_price`,`duration`,`id` FROM `m2_product` WHERE  `id` = 1000027 LIMIT 1 [ RunTime:0.001529s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_product_category` [ RunTime:0.001988s ]
+[ sql ] [ SQL ] SELECT `name` FROM `m2_product_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001039s ]
+[ sql ] [ SQL ] SELECT `name` FROM `m2_product_category` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001208s ]
+---------------------------------------------------------------
+[ 2017-07-13T09:50:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/service_detail
+[ info ] www.qiaom.com/index.php/dresser/Service/service_detail [运行时间：0.063413s][吞吐率：15.77req/s] [内存消耗：2,358.26kb] [文件加载：50]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'service_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Service->service_detail[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012141s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_product` [ RunTime:0.002837s ]
+[ sql ] [ SQL ] SELECT `cate_id`,`cate_id_2`,`service_form`,`name`,`images`,`new_details`,`new_pic_path`,`price`,`market_price`,`duration`,`id`,`updated_at` FROM `m2_product` WHERE  `id` = 1000027 LIMIT 1 [ RunTime:0.001443s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_product_category` [ RunTime:0.001820s ]
+[ sql ] [ SQL ] SELECT `name` FROM `m2_product_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001536s ]
+[ sql ] [ SQL ] SELECT `name` FROM `m2_product_category` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001106s ]
+---------------------------------------------------------------
+[ 2017-07-13T13:53:14+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/dresser/Service/adds_service
+[ info ] www.qiaom.com/index.php/dresser/Service/adds_service [运行时间：0.020959s][吞吐率：47.71req/s] [内存消耗：1,271.14kb] [文件加载：39]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-13T13:54:08+08:00 ] 127.0.0.1 127.0.0.1 POST /dresser/dr_show_service_class
+[ info ] www.qiaom.com/dresser/dr_show_service_class [运行时间：0.047709s][吞吐率：20.96req/s] [内存消耗：1,670.41kb] [文件加载：45]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'show_service_class',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.qiaom.com/apidoc/',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Service->show_service_class[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-13T18:07:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.024373s][吞吐率：41.03req/s] [内存消耗：1,269.77kb] [文件加载：39]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-13T18:08:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.031458s][吞吐率：31.79req/s] [内存消耗：1,269.88kb] [文件加载：39]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-13T18:08:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.099974s][吞吐率：10.00req/s] [内存消耗：3,293.80kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011111s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select * from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id where o.seller_id = 324248237 [ RunTime:0.041435s ]
+---------------------------------------------------------------
+[ 2017-07-13T18:09:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.043893s][吞吐率：22.78req/s] [内存消耗：1,742.80kb] [文件加载：52]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011144s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '5' at line 1[F:\PHPstudy\WWW\qiaocat\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-07-13T18:09:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.041726s][吞吐率：23.97req/s] [内存消耗：1,787.16kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011489s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select * from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id where o.seller_id = 324248237 limit 0,5 [ RunTime:0.002774s ]
+---------------------------------------------------------------
+[ 2017-07-13T18:11:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.058864s][吞吐率：16.99req/s] [内存消耗：1,742.99kb] [文件加载：52]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010843s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} limit 0,5' at line 1[F:\PHPstudy\WWW\qiaocat\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-07-13T18:11:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.038412s][吞吐率：26.03req/s] [内存消耗：1,787.22kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001423s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select * from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id where o.seller_id = "{$id}" limit 0,5 [ RunTime:0.003269s ]
+---------------------------------------------------------------
+[ 2017-07-13T19:30:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.044780s][吞吐率：22.33req/s] [内存消耗：1,743.77kb] [文件加载：52]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011310s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'os.district = la.area_id  where o.seller_id = "{$id}" limit 0,5' at line 1[F:\PHPstudy\WWW\qiaocat\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-07-13T19:33:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.032872s][吞吐率：30.42req/s] [内存消耗：1,704.36kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002067s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select o.id,o.sn,o.buyer_id,o.seller_id,o.order_status,o.service_time,u.id as uid,u.nick from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id where o.seller_id = "{$id}" limit 0,5 [ RunTime:0.001466s ]
+---------------------------------------------------------------
+[ 2017-07-13T19:35:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.084183s][吞吐率：11.88req/s] [内存消耗：1,708.13kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002019s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select o.id,o.sn,o.buyer_id,o.seller_id,o.order_status,o.service_time,u.id as uid,u.nick,lp.name as lpname,lc.name as lcname,la.name as laname from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id left join m2_location_province as lp ON os.province = lp.province_id left join m2_location_city as lc ON os.city = lc.city_id left join m2_location_area as la ON os.district = la.area_id  where o.seller_id = "{$id}" limit 0,5 [ RunTime:0.044271s ]
+---------------------------------------------------------------
+[ 2017-07-13T19:36:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.082700s][吞吐率：12.09req/s] [内存消耗：1,708.98kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001553s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select o.id,o.sn,o.buyer_id,o.seller_id,o.order_status,o.service_time,u.id as uid,u.nick,os.address,lp.name as lpname,lc.name as lcname,la.name as laname from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id left join m2_location_province as lp ON os.province = lp.province_id left join m2_location_city as lc ON os.city = lc.city_id left join m2_location_area as la ON os.district = la.area_id  where o.seller_id = "{$id}" limit 0,5 [ RunTime:0.043259s ]
+---------------------------------------------------------------
+[ 2017-07-13T19:43:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.360301s][吞吐率：2.78req/s] [内存消耗：1,792.25kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011699s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select o.id,o.sn,o.buyer_id,o.seller_id,o.order_status,o.service_time,u.id as uid,u.nick,os.address,lp.name as lpname,lc.name as lcname,la.name as laname from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id left join m2_location_province as lp ON os.province = lp.province_id left join m2_location_city as lc ON os.city = lc.city_id left join m2_location_area as la ON os.district = la.area_id  where o.seller_id = "{$id}" [ RunTime:0.305019s ]
+---------------------------------------------------------------
+[ 2017-07-13T19:44:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.404591s][吞吐率：2.47req/s] [内存消耗：1,792.33kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011588s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select o.id,o.sn,o.buyer_id,o.seller_id,o.order_status,o.service_time,u.id as uid,u.nick,os.address,lp.name as lpname,lc.name as lcname,la.name as laname from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id left join m2_location_province as lp ON os.province = lp.province_id left join m2_location_city as lc ON os.city = lc.city_id left join m2_location_area as la ON os.district = la.area_id  where o.seller_id = "{$id}" order by id desc [ RunTime:0.337123s ]
+---------------------------------------------------------------
+[ 2017-07-13T20:00:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.385081s][吞吐率：2.60req/s] [内存消耗：1,762.50kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011171s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select o.id,o.sn,o.buyer_id,o.seller_id,o.order_status,o.service_time,u.id as uid,u.nick,os.address,lp.name as lpname,lc.name as lcname,la.name as laname from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id left join m2_location_province as lp ON os.province = lp.province_id left join m2_location_city as lc ON os.city = lc.city_id left join m2_location_area as la ON os.district = la.area_id  where o.seller_id = "{$id}" order by id desc [ RunTime:0.336054s ]
+---------------------------------------------------------------
+[ 2017-07-13T20:00:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.387786s][吞吐率：2.58req/s] [内存消耗：1,762.66kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010961s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select o.id,o.sn,o.buyer_id,o.seller_id,o.order_status,o.service_time,u.id as uid,u.nick,os.address,lp.name as lpname,lc.name as lcname,la.name as laname from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id left join m2_location_province as lp ON os.province = lp.province_id left join m2_location_city as lc ON os.city = lc.city_id left join m2_location_area as la ON os.district = la.area_id  where o.seller_id = "{$id}" order by id desc [ RunTime:0.336786s ]
+---------------------------------------------------------------
+[ 2017-07-13T20:02:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.390532s][吞吐率：2.56req/s] [内存消耗：1,810.98kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011539s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select o.id,o.sn,o.buyer_id,o.seller_id,o.order_status,o.service_time,u.id as uid,u.nick,os.address,lp.name as lpname,lc.name as lcname,la.name as laname from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id left join m2_location_province as lp ON os.province = lp.province_id left join m2_location_city as lc ON os.city = lc.city_id left join m2_location_area as la ON os.district = la.area_id  where o.seller_id = "{$id}" order by id desc [ RunTime:0.335680s ]
+---------------------------------------------------------------
+[ 2017-07-13T20:03:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.367254s][吞吐率：2.72req/s] [内存消耗：1,811.07kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001913s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select o.id,o.sn,o.buyer_id,o.seller_id,o.order_status,o.service_time,u.id as uid,u.nick,os.address,lp.name as lpname,lc.name as lcname,la.name as laname from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id left join m2_location_province as lp ON os.province = lp.province_id left join m2_location_city as lc ON os.city = lc.city_id left join m2_location_area as la ON os.district = la.area_id  where o.seller_id = "{$id}" order by id desc [ RunTime:0.336260s ]
+---------------------------------------------------------------
+[ 2017-07-13T20:03:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.372839s][吞吐率：2.68req/s] [内存消耗：1,811.07kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002065s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select o.id,o.sn,o.buyer_id,o.seller_id,o.order_status,o.service_time,u.id as uid,u.nick,os.address,lp.name as lpname,lc.name as lcname,la.name as laname from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id left join m2_location_province as lp ON os.province = lp.province_id left join m2_location_city as lc ON os.city = lc.city_id left join m2_location_area as la ON os.district = la.area_id  where o.seller_id = "{$id}" order by id desc [ RunTime:0.335910s ]
+---------------------------------------------------------------
+[ 2017-07-13T20:03:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.369344s][吞吐率：2.71req/s] [内存消耗：1,811.07kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001936s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select o.id,o.sn,o.buyer_id,o.seller_id,o.order_status,o.service_time,u.id as uid,u.nick,os.address,lp.name as lpname,lc.name as lcname,la.name as laname from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id left join m2_location_province as lp ON os.province = lp.province_id left join m2_location_city as lc ON os.city = lc.city_id left join m2_location_area as la ON os.district = la.area_id  where o.seller_id = "{$id}" order by id desc [ RunTime:0.336243s ]
+---------------------------------------------------------------
+[ 2017-07-13T20:07:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.393159s][吞吐率：2.54req/s] [内存消耗：1,764.31kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011807s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select o.id,o.sn,o.buyer_id,o.seller_id,o.order_status,o.service_time,u.id as uid,u.nick,os.address,lp.name as lpname,lc.name as lcname,la.name as laname from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id left join m2_location_province as lp ON os.province = lp.province_id left join m2_location_city as lc ON os.city = lc.city_id left join m2_location_area as la ON os.district = la.area_id  where o.seller_id = "{$id}" order by id desc [ RunTime:0.345676s ]
+---------------------------------------------------------------
+[ 2017-07-13T20:07:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.386758s][吞吐率：2.59req/s] [内存消耗：1,764.34kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011313s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select o.id,o.sn,o.buyer_id,o.seller_id,o.order_status,o.service_time,u.id as uid,u.nick,os.address,lp.name as lpname,lc.name as lcname,la.name as laname from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id left join m2_location_province as lp ON os.province = lp.province_id left join m2_location_city as lc ON os.city = lc.city_id left join m2_location_area as la ON os.district = la.area_id  where o.seller_id = "{$id}" order by id desc [ RunTime:0.344989s ]
+---------------------------------------------------------------
+[ 2017-07-13T20:16:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.678113s][吞吐率：1.47req/s] [内存消耗：1,863.97kb] [文件加载：50]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010998s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select o.id,o.sn,o.buyer_id,o.seller_id,o.order_status,o.service_time,u.id as uid,u.nick,os.address,lp.name as lpname,lc.name as lcname,la.name as laname from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id left join m2_location_province as lp ON os.province = lp.province_id left join m2_location_city as lc ON os.city = lc.city_id left join m2_location_area as la ON os.district = la.area_id  where o.seller_id = '324248237' order by id desc [ RunTime:0.565665s ]
+---------------------------------------------------------------
+[ 2017-07-13T20:17:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.602151s][吞吐率：1.66req/s] [内存消耗：1,864.05kb] [文件加载：50]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001523s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select o.id,o.sn,o.buyer_id,o.seller_id,o.order_status,o.service_time,u.id as uid,u.nick,os.address,lp.name as lpname,lc.name as lcname,la.name as laname from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id left join m2_location_province as lp ON os.province = lp.province_id left join m2_location_city as lc ON os.city = lc.city_id left join m2_location_area as la ON os.district = la.area_id  where o.seller_id = '324248237' order by id desc [ RunTime:0.566413s ]
+---------------------------------------------------------------
+[ 2017-07-13T20:50:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.919191s][吞吐率：1.09req/s] [内存消耗：1,976.07kb] [文件加载：50]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011104s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select o.id,o.sn,o.buyer_id,o.seller_id,o.order_status,o.service_time,u.id as uid,u.nick,os.address,lp.name as lpname,lc.name as lcname,la.name as laname from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id left join m2_location_province as lp ON os.province = lp.province_id left join m2_location_city as lc ON os.city = lc.city_id left join m2_location_area as la ON os.district = la.area_id  where o.seller_id = '324248237' order by id desc [ RunTime:0.568077s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 362 [ RunTime:0.002825s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 359 [ RunTime:0.002090s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 357 [ RunTime:0.001935s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 356 [ RunTime:0.002021s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 353 [ RunTime:0.002244s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 351 [ RunTime:0.002476s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 350 [ RunTime:0.001798s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 347 [ RunTime:0.001616s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 346 [ RunTime:0.002015s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 345 [ RunTime:0.001928s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 344 [ RunTime:0.002060s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 343 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 341 [ RunTime:0.002081s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 340 [ RunTime:0.002067s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 339 [ RunTime:0.002175s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 338 [ RunTime:0.001962s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 337 [ RunTime:0.001971s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 336 [ RunTime:0.002095s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 335 [ RunTime:0.001778s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 334 [ RunTime:0.001958s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 331 [ RunTime:0.001935s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 327 [ RunTime:0.001854s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 326 [ RunTime:0.001687s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 325 [ RunTime:0.001754s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 324 [ RunTime:0.001472s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 323 [ RunTime:0.001663s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 321 [ RunTime:0.001656s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 318 [ RunTime:0.001621s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 317 [ RunTime:0.001593s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 316 [ RunTime:0.001599s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 314 [ RunTime:0.001659s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 313 [ RunTime:0.001616s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 312 [ RunTime:0.001728s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 311 [ RunTime:0.001597s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 310 [ RunTime:0.001631s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 309 [ RunTime:0.001415s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 307 [ RunTime:0.001359s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 306 [ RunTime:0.001381s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 305 [ RunTime:0.001494s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 304 [ RunTime:0.001550s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 303 [ RunTime:0.001545s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 299 [ RunTime:0.001545s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 298 [ RunTime:0.001729s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 297 [ RunTime:0.001504s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 296 [ RunTime:0.001606s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 295 [ RunTime:0.001586s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 278 [ RunTime:0.001636s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 276 [ RunTime:0.001500s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 275 [ RunTime:0.001595s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 274 [ RunTime:0.001627s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 273 [ RunTime:0.001390s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 272 [ RunTime:0.001614s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 271 [ RunTime:0.001593s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 270 [ RunTime:0.001586s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 269 [ RunTime:0.001369s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 267 [ RunTime:0.001370s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 266 [ RunTime:0.001584s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 255 [ RunTime:0.001826s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 254 [ RunTime:0.001360s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 253 [ RunTime:0.001467s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 252 [ RunTime:0.001689s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 251 [ RunTime:0.001355s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 247 [ RunTime:0.001627s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 246 [ RunTime:0.001478s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 242 [ RunTime:0.001577s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 241 [ RunTime:0.001460s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 240 [ RunTime:0.001422s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 239 [ RunTime:0.001381s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 238 [ RunTime:0.001294s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 237 [ RunTime:0.001313s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 236 [ RunTime:0.001267s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 235 [ RunTime:0.001622s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 234 [ RunTime:0.001686s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 232 [ RunTime:0.001616s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 231 [ RunTime:0.001533s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 220 [ RunTime:0.001487s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 192 [ RunTime:0.001465s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 189 [ RunTime:0.001373s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 188 [ RunTime:0.001309s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 187 [ RunTime:0.001473s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 186 [ RunTime:0.001382s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 185 [ RunTime:0.001429s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 184 [ RunTime:0.001598s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 183 [ RunTime:0.001554s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 182 [ RunTime:0.001541s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 157 [ RunTime:0.001573s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 156 [ RunTime:0.001592s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 155 [ RunTime:0.001525s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 154 [ RunTime:0.001550s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 153 [ RunTime:0.001577s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 152 [ RunTime:0.001538s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 151 [ RunTime:0.001530s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 150 [ RunTime:0.001620s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 147 [ RunTime:0.001478s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 146 [ RunTime:0.001539s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 145 [ RunTime:0.001444s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 144 [ RunTime:0.001359s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 143 [ RunTime:0.001577s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 142 [ RunTime:0.001561s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 141 [ RunTime:0.001535s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 140 [ RunTime:0.001545s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 139 [ RunTime:0.001553s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 129 [ RunTime:0.001635s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 98 [ RunTime:0.001704s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 93 [ RunTime:0.001520s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 89 [ RunTime:0.001583s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 88 [ RunTime:0.001529s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 87 [ RunTime:0.001549s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 86 [ RunTime:0.001550s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 85 [ RunTime:0.001561s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 84 [ RunTime:0.001547s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 82 [ RunTime:0.001598s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 81 [ RunTime:0.001583s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 80 [ RunTime:0.001512s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 79 [ RunTime:0.001611s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 78 [ RunTime:0.001632s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 77 [ RunTime:0.001496s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 76 [ RunTime:0.001577s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 75 [ RunTime:0.001576s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 73 [ RunTime:0.001542s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 72 [ RunTime:0.001618s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 71 [ RunTime:0.001530s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 70 [ RunTime:0.001650s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 69 [ RunTime:0.001351s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 68 [ RunTime:0.001548s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 67 [ RunTime:0.001367s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 66 [ RunTime:0.001541s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 65 [ RunTime:0.001592s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 63 [ RunTime:0.001538s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 62 [ RunTime:0.001534s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 61 [ RunTime:0.001575s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 60 [ RunTime:0.001531s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 59 [ RunTime:0.001567s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 58 [ RunTime:0.001610s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 57 [ RunTime:0.001496s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 56 [ RunTime:0.001548s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 54 [ RunTime:0.001557s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 53 [ RunTime:0.001540s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 52 [ RunTime:0.001586s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 51 [ RunTime:0.001590s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 50 [ RunTime:0.001517s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 49 [ RunTime:0.001581s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 48 [ RunTime:0.001587s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 47 [ RunTime:0.001591s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 46 [ RunTime:0.001512s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 45 [ RunTime:0.001544s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 43 [ RunTime:0.001527s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 42 [ RunTime:0.001572s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 41 [ RunTime:0.001527s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 40 [ RunTime:0.001610s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 39 [ RunTime:0.001530s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 38 [ RunTime:0.001608s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 37 [ RunTime:0.001761s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 34 [ RunTime:0.001766s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 32 [ RunTime:0.001784s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 31 [ RunTime:0.001729s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 30 [ RunTime:0.001857s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 21 [ RunTime:0.001642s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 20 [ RunTime:0.001502s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 18 [ RunTime:0.001673s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 17 [ RunTime:0.001599s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 16 [ RunTime:0.001472s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 15 [ RunTime:0.001535s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 14 [ RunTime:0.001531s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 13 [ RunTime:0.001540s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 12 [ RunTime:0.001411s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 11 [ RunTime:0.001595s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 10 [ RunTime:0.001556s ]
+[ sql ] [ SQL ] select * from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 9 [ RunTime:0.001602s ]
+---------------------------------------------------------------
+[ 2017-07-13T20:54:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.637814s][吞吐率：1.57req/s] [内存消耗：1,792.08kb] [文件加载：55]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010934s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select o.id,o.sn,o.buyer_id,o.seller_id,o.order_status,o.service_time,u.id as uid,u.nick,os.address,lp.name as lpname,lc.name as lcname,la.name as laname from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id left join m2_location_province as lp ON os.province = lp.province_id left join m2_location_city as lc ON os.city = lc.city_id left join m2_location_area as la ON os.district = la.area_id  where o.seller_id = '324248237' order by id desc [ RunTime:0.567179s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.thump' in 'field list'[F:\PHPstudy\WWW\qiaocat\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-07-13T20:55:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.856121s][吞吐率：1.17req/s] [内存消耗：1,941.70kb] [文件加载：50]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010979s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select o.id,o.sn,o.buyer_id,o.seller_id,o.order_status,o.service_time,u.id as uid,u.nick,os.address,lp.name as lpname,lc.name as lcname,la.name as laname from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id left join m2_location_province as lp ON os.province = lp.province_id left join m2_location_city as lc ON os.city = lc.city_id left join m2_location_area as la ON os.district = la.area_id  where o.seller_id = '324248237' order by id desc [ RunTime:0.569976s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 362 [ RunTime:0.001715s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 359 [ RunTime:0.001778s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 357 [ RunTime:0.001521s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 356 [ RunTime:0.001687s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 353 [ RunTime:0.001414s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 351 [ RunTime:0.001609s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 350 [ RunTime:0.001614s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 347 [ RunTime:0.001633s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 346 [ RunTime:0.001748s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 345 [ RunTime:0.001566s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 344 [ RunTime:0.001579s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 343 [ RunTime:0.001759s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 341 [ RunTime:0.001337s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 340 [ RunTime:0.001269s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 339 [ RunTime:0.001223s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 338 [ RunTime:0.001218s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 337 [ RunTime:0.001123s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 336 [ RunTime:0.001365s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 335 [ RunTime:0.001381s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 334 [ RunTime:0.001392s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 331 [ RunTime:0.001218s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 327 [ RunTime:0.001484s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 326 [ RunTime:0.001461s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 325 [ RunTime:0.001156s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 324 [ RunTime:0.001229s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 323 [ RunTime:0.001257s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 321 [ RunTime:0.001168s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 318 [ RunTime:0.001471s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 317 [ RunTime:0.001354s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 316 [ RunTime:0.001304s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 314 [ RunTime:0.001214s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 313 [ RunTime:0.001335s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 312 [ RunTime:0.001582s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 311 [ RunTime:0.001173s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 310 [ RunTime:0.001281s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 309 [ RunTime:0.001184s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 307 [ RunTime:0.001168s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 306 [ RunTime:0.001095s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 305 [ RunTime:0.001142s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 304 [ RunTime:0.001362s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 303 [ RunTime:0.001410s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 299 [ RunTime:0.001193s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 298 [ RunTime:0.001222s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 297 [ RunTime:0.001390s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 296 [ RunTime:0.001055s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 295 [ RunTime:0.001282s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 278 [ RunTime:0.001393s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 276 [ RunTime:0.001342s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 275 [ RunTime:0.001262s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 274 [ RunTime:0.001016s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 273 [ RunTime:0.001485s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 272 [ RunTime:0.001262s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 271 [ RunTime:0.001160s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 270 [ RunTime:0.001310s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 269 [ RunTime:0.001657s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 267 [ RunTime:0.001254s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 266 [ RunTime:0.001044s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 255 [ RunTime:0.001144s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 254 [ RunTime:0.001230s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 253 [ RunTime:0.001445s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 252 [ RunTime:0.001127s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 251 [ RunTime:0.001264s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 247 [ RunTime:0.001139s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 246 [ RunTime:0.001044s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 242 [ RunTime:0.001330s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 241 [ RunTime:0.001233s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 240 [ RunTime:0.001073s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 239 [ RunTime:0.000992s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 238 [ RunTime:0.001367s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 237 [ RunTime:0.001739s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 236 [ RunTime:0.001201s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 235 [ RunTime:0.001188s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 234 [ RunTime:0.001380s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 232 [ RunTime:0.001166s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 231 [ RunTime:0.001287s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 220 [ RunTime:0.001183s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 192 [ RunTime:0.001120s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 189 [ RunTime:0.001125s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 188 [ RunTime:0.001286s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 187 [ RunTime:0.000975s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 186 [ RunTime:0.001215s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 185 [ RunTime:0.001113s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 184 [ RunTime:0.001048s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 183 [ RunTime:0.001362s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 182 [ RunTime:0.001460s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 157 [ RunTime:0.001193s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 156 [ RunTime:0.001078s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 155 [ RunTime:0.001158s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 154 [ RunTime:0.001297s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 153 [ RunTime:0.001351s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 152 [ RunTime:0.001260s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 151 [ RunTime:0.000986s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 150 [ RunTime:0.000942s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 147 [ RunTime:0.000981s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 146 [ RunTime:0.001035s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 145 [ RunTime:0.001029s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 144 [ RunTime:0.001399s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 143 [ RunTime:0.001164s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 142 [ RunTime:0.001030s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 141 [ RunTime:0.001044s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 140 [ RunTime:0.001206s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 139 [ RunTime:0.001333s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 129 [ RunTime:0.001290s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 98 [ RunTime:0.001398s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 93 [ RunTime:0.001043s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 89 [ RunTime:0.001120s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 88 [ RunTime:0.001259s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 87 [ RunTime:0.001343s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 86 [ RunTime:0.001379s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 85 [ RunTime:0.001206s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 84 [ RunTime:0.001129s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 82 [ RunTime:0.001142s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 81 [ RunTime:0.001344s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 80 [ RunTime:0.001329s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 79 [ RunTime:0.001349s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 78 [ RunTime:0.001423s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 77 [ RunTime:0.001121s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 76 [ RunTime:0.001217s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 75 [ RunTime:0.001135s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 73 [ RunTime:0.001320s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 72 [ RunTime:0.001131s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 71 [ RunTime:0.001059s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 70 [ RunTime:0.000983s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 69 [ RunTime:0.001096s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 68 [ RunTime:0.001167s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 67 [ RunTime:0.001140s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 66 [ RunTime:0.000874s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 65 [ RunTime:0.001090s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 63 [ RunTime:0.001073s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 62 [ RunTime:0.001006s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 61 [ RunTime:0.001132s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 60 [ RunTime:0.000887s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 59 [ RunTime:0.001099s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 58 [ RunTime:0.001101s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 57 [ RunTime:0.001108s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 56 [ RunTime:0.000872s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 54 [ RunTime:0.000908s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 53 [ RunTime:0.000840s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 52 [ RunTime:0.001066s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 51 [ RunTime:0.000900s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 50 [ RunTime:0.000985s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 49 [ RunTime:0.000905s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 48 [ RunTime:0.001048s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 47 [ RunTime:0.000849s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 46 [ RunTime:0.000908s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 45 [ RunTime:0.001017s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 43 [ RunTime:0.000934s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 42 [ RunTime:0.000929s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 41 [ RunTime:0.000896s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 40 [ RunTime:0.001111s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 39 [ RunTime:0.001097s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 38 [ RunTime:0.001061s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 37 [ RunTime:0.000924s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 34 [ RunTime:0.000897s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 32 [ RunTime:0.000966s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 31 [ RunTime:0.000985s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 30 [ RunTime:0.000956s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 21 [ RunTime:0.001078s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 20 [ RunTime:0.001029s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 18 [ RunTime:0.000930s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 17 [ RunTime:0.000788s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 16 [ RunTime:0.001004s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 15 [ RunTime:0.000872s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 14 [ RunTime:0.000913s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 13 [ RunTime:0.000780s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 12 [ RunTime:0.000957s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 11 [ RunTime:0.001070s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 10 [ RunTime:0.000902s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 9 [ RunTime:0.000878s ]
+---------------------------------------------------------------
+[ 2017-07-13T21:01:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.143875s][吞吐率：6.95req/s] [内存消耗：1,810.84kb] [文件加载：50]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_list[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010869s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] select o.id,o.sn,o.buyer_id,o.seller_id,o.order_status,o.service_time,u.id as uid,u.nick,os.address,lp.name as lpname,lc.name as lcname,la.name as laname from m2_order as o left join m2_user as u ON o.buyer_id = u.id left join m2_order_shipping as os ON o.id = os.order_id left join m2_location_province as lp ON os.province = lp.province_id left join m2_location_city as lc ON os.city = lc.city_id left join m2_location_area as la ON os.district = la.area_id  where o.seller_id = '324248948' order by id desc [ RunTime:0.076422s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 7526 [ RunTime:0.001299s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 7403 [ RunTime:0.001095s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 7315 [ RunTime:0.001032s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 7115 [ RunTime:0.001210s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 6823 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 6712 [ RunTime:0.000988s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 6543 [ RunTime:0.000946s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 5604 [ RunTime:0.001065s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 5602 [ RunTime:0.001222s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 5601 [ RunTime:0.000912s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 5033 [ RunTime:0.001090s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 4483 [ RunTime:0.000997s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 3934 [ RunTime:0.001093s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 3910 [ RunTime:0.000919s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 3223 [ RunTime:0.000979s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 2360 [ RunTime:0.001134s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 2049 [ RunTime:0.001144s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 2019 [ RunTime:0.000915s ]
+[ sql ] [ SQL ] select op.product_name,product_number,op.market_price,product_price,p.thumb from m2_order_product as op left join m2_product as p ON op.product_id = p.id where op.order_id = 1719 [ RunTime:0.001096s ]

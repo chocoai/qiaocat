@@ -1,0 +1,52 @@
+---------------------------------------------------------------
+[ 2017-07-07T16:41:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/show_service_class
+[ info ] www.qiaom.com/index.php/dresser/Service/show_service_class [运行时间：0.078568s][吞吐率：12.73req/s] [内存消耗：1,564.57kb] [文件加载：45]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'show_service_class',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Service->show_service_class[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-07T16:49:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/mon/Upload/pic_upload
+[ info ] www.qiaom.com/index.php/mon/Upload/pic_upload [运行时间：0.034167s][吞吐率：29.27req/s] [内存消耗：1,536.39kb] [文件加载：45]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mon',
+    1 => 'Upload',
+    2 => 'pic_upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\mon\controller\Upload->pic_upload[ F:\PHPstudy\WWW\qiaocat\application\mon\controller\Upload.php ]
+[ info ] [ LOG ] INIT File

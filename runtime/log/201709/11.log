@@ -1,0 +1,5 @@
+---------------------------------------------------------------
+[ 2017-09-11T10:34:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Order/order_list
+[ info ] www.qiaom.com/index.php/dresser/Order/order_list [运行时间：0.118651s][吞吐率：8.43req/s] [内存消耗：1,448.08kb] [文件加载：41]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File

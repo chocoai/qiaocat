@@ -1,0 +1,207 @@
+---------------------------------------------------------------
+[ 2017-08-03T19:26:48+08:00 ] 192.168.50.14 192.168.50.18 POST /dresser/dr_order_status
+[ info ] www.qiaom.com/dresser/dr_order_status [运行时间：0.219490s][吞吐率：4.56req/s] [内存消耗：1,723.18kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_status',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'content-length' => '1306',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://192.168.50.18:8888',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarySyzFhCSDOaXzaMUN',
+  'referer' => 'http://192.168.50.18:8888/order/list/2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+)
+[ info ] [ PARAM ] array (
+  'append' => 'function append() { [native code] }',
+  'delete' => 'function delete() { [native code] }',
+  'get' => 'function get() { [native code] }',
+  'getAll' => 'function getAll() { [native code] }',
+  'has' => 'function has() { [native code] }',
+  'set' => 'function set() { [native code] }',
+  'keys' => 'function keys() { [native code] }',
+  'values' => 'function values() { [native code] }',
+  'entries' => 'function entries() { [native code] }',
+  'forEach' => 'function forEach() { [native code] }',
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_status[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-03T19:26:49+08:00 ] 192.168.50.14 192.168.50.18 POST /dresser/dr_order_status
+[ info ] www.qiaom.com/dresser/dr_order_status [运行时间：0.023369s][吞吐率：42.79req/s] [内存消耗：1,720.76kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_status',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://192.168.50.18:8888',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryGNBRLEtLBU0H3dbU',
+  'referer' => 'http://192.168.50.18:8888/order/list/2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+)
+[ info ] [ PARAM ] array (
+  'order_type' => '2',
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_status[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-03T19:28:00+08:00 ] 192.168.50.14 192.168.50.18 POST /dresser/dr_order_status
+[ info ] www.qiaom.com/dresser/dr_order_status [运行时间：0.058456s][吞吐率：17.11req/s] [内存消耗：1,720.76kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_status',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://192.168.50.18:8888',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryIzuChU4yBkvlyaXE',
+  'referer' => 'http://192.168.50.18:8888/order/list/2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+)
+[ info ] [ PARAM ] array (
+  'order_type' => '2',
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_status[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-03T19:28:02+08:00 ] 192.168.50.14 192.168.50.18 POST /dresser/dr_order_status
+[ info ] www.qiaom.com/dresser/dr_order_status [运行时间：0.082117s][吞吐率：12.18req/s] [内存消耗：1,720.76kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_status',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://192.168.50.18:8888',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryu5Rw2CHLnEcltCG1',
+  'referer' => 'http://192.168.50.18:8888/order/list/2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+)
+[ info ] [ PARAM ] array (
+  'order_type' => '2',
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_status[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-03T19:30:11+08:00 ] 192.168.50.14 192.168.50.18 POST /dresser/dr_order_status
+[ info ] www.qiaom.com/dresser/dr_order_status [运行时间：0.093598s][吞吐率：10.68req/s] [内存消耗：1,720.76kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_status',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://192.168.50.18:8888',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryNDCCe4LLAhgMdPAE',
+  'referer' => 'http://192.168.50.18:8888/order/list/2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+)
+[ info ] [ PARAM ] array (
+  'order_type' => '2',
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_status[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-03T19:31:05+08:00 ] 192.168.50.14 192.168.50.18 POST /dresser/dr_order_status
+[ info ] www.qiaom.com/dresser/dr_order_status [运行时间：0.068009s][吞吐率：14.70req/s] [内存消耗：1,720.76kb] [文件加载：47]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Order',
+    2 => 'order_status',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://192.168.50.18:8888',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary948kkKS9pcWiXvz2',
+  'referer' => 'http://192.168.50.18:8888/order/list/2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+)
+[ info ] [ PARAM ] array (
+  'order_type' => '2',
+)
+[ info ] [ RUN ] app\dresser\controller\Order->order_status[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Order.php ]
+[ info ] [ LOG ] INIT File

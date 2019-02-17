@@ -1,0 +1,234 @@
+---------------------------------------------------------------
+[ 2017-07-11T09:04:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/show_service_class
+[ info ] www.qiaom.com/index.php/dresser/Service/show_service_class [运行时间：0.022984s][吞吐率：43.51req/s] [内存消耗：1,630.52kb] [文件加载：45]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'show_service_class',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Service->show_service_class[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T11:23:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/ysj_edit
+[ info ] www.qiaom.com/index.php/dresser/Service/ysj_edit [运行时间：0.103589s][吞吐率：9.65req/s] [内存消耗：1,264.18kb] [文件加载：39]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T11:23:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/show_service_class
+[ info ] www.qiaom.com/index.php/dresser/Service/show_service_class [运行时间：0.030391s][吞吐率：32.90req/s] [内存消耗：1,264.18kb] [文件加载：39]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T11:25:31+08:00 ] 127.0.0.1 127.0.0.1 GET /dresser/Service/show_service_class
+[ info ] www.qiaom.com/dresser/Service/show_service_class [运行时间：0.025979s][吞吐率：38.49req/s] [内存消耗：1,264.13kb] [文件加载：39]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T11:26:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/show_service_class
+[ info ] www.qiaom.com/index.php/dresser/Service/show_service_class [运行时间：0.033016s][吞吐率：30.29req/s] [内存消耗：1,648.24kb] [文件加载：45]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'show_service_class',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Service->show_service_class[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T11:26:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/ysj_edit
+[ info ] www.qiaom.com/index.php/dresser/Service/ysj_edit [运行时间：0.056295s][吞吐率：17.76req/s] [内存消耗：2,370.37kb] [文件加载：50]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'ysj_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Service->ysj_edit[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001642s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_product` [ RunTime:0.002854s ]
+[ sql ] [ SQL ] SELECT `cate_id`,`cate_id_2`,`service_form`,`name`,`images`,`new_details`,`new_pic_path`,`price`,`market_price`,`duration`,`id` FROM `m2_product` WHERE  `id` = 1000027 LIMIT 1 [ RunTime:0.001582s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_product_category` [ RunTime:0.001855s ]
+[ sql ] [ SQL ] SELECT `name` FROM `m2_product_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001379s ]
+[ sql ] [ SQL ] SELECT `name` FROM `m2_product_category` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000922s ]
+---------------------------------------------------------------
+[ 2017-07-11T11:33:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/service_detail
+[ info ] www.qiaom.com/index.php/dresser/service_detail [运行时间：0.033023s][吞吐率：30.28req/s] [内存消耗：1,250.91kb] [文件加载：39]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'service_detail',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T11:33:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/service_detail
+[ info ] www.qiaom.com/index.php/dresser/service_detail [运行时间：0.024592s][吞吐率：40.66req/s] [内存消耗：1,251.04kb] [文件加载：39]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'service_detail',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T11:34:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/dresser/Service/service_detail
+[ info ] www.qiaom.com/index.php/dresser/Service/service_detail [运行时间：0.045620s][吞吐率：21.92req/s] [内存消耗：2,372.35kb] [文件加载：50]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Service',
+    2 => 'service_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\dresser\controller\Service->service_detail[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Service.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001486s ] mysql:dbname=crm_test;host=192.168.1.200;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_product` [ RunTime:0.002545s ]
+[ sql ] [ SQL ] SELECT `cate_id`,`cate_id_2`,`service_form`,`name`,`images`,`new_details`,`new_pic_path`,`price`,`market_price`,`duration`,`id`,`updated_at` FROM `m2_product` WHERE  `id` = 1000027 LIMIT 1 [ RunTime:0.001095s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `m2_product_category` [ RunTime:0.001669s ]
+[ sql ] [ SQL ] SELECT `name` FROM `m2_product_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000871s ]
+[ sql ] [ SQL ] SELECT `name` FROM `m2_product_category` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000873s ]
+---------------------------------------------------------------
+[ 2017-07-11T14:48:04+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/dresser/Service/adds_service
+[ info ] www.qiaom.com/index.php/dresser/Service/adds_service [运行时间：0.021936s][吞吐率：45.59req/s] [内存消耗：1,267.00kb] [文件加载：39]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T14:48:05+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/dresser/Service/adds_service
+[ info ] www.qiaom.com/index.php/dresser/Service/adds_service [运行时间：0.020424s][吞吐率：48.96req/s] [内存消耗：1,267.00kb] [文件加载：39]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-11T17:37:16+08:00 ] 127.0.0.1 127.0.0.1 POST /dresser/dr_add_data
+[ info ] www.qiaom.com/dresser/dr_add_data [运行时间：0.040974s][吞吐率：24.41req/s] [内存消耗：1,629.83kb] [文件加载：45]
+[ info ] [ LANG ] F:\PHPstudy\WWW\qiaocat\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dresser',
+    1 => 'Login',
+    2 => 'add_data',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qiaom.com',
+  'connection' => 'keep-alive',
+  'content-length' => '89',
+  'accept' => '*/*',
+  'origin' => 'http://www.qiaom.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.qiaom.com/apidoc/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'real_name' => '',
+  'sex' => '',
+  'skill_type' => '',
+  'user_good' => '',
+  'province_id' => '',
+  'city_id' => '',
+  'area_id' => '',
+  'WeChat_id' => '',
+  'address' => '',
+)
+[ info ] [ RUN ] app\dresser\controller\Login->add_data[ F:\PHPstudy\WWW\qiaocat\application\dresser\controller\Login.php ]
+[ info ] [ LOG ] INIT File
